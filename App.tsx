@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { photobookData } from './constants';
 import PhotoCard from './components/PhotoCard';
 
@@ -22,6 +22,7 @@ const ChevronRightIcon = () => (
 
 const App: React.FC = () => {
   const [currentPage, setCurrentPage] = useState(0);
+  const [isAutoPlay, setIsAutoPlay] = useState(true);
   const totalPages = useMemo(() => photobookData.length + 2, []); // Cover + Pages + End
 
   const goToNextPage = () => {
@@ -30,6 +31,26 @@ const App: React.FC = () => {
 
   const goToPrevPage = () => {
     setCurrentPage((prev) => Math.max(prev - 1, 0));
+  };
+
+  // Auto-play slideshow
+  useEffect(() => {
+    if (!isAutoPlay) return;
+
+    const interval = setInterval(() => {
+      setCurrentPage((prev) => {
+        if (prev >= totalPages - 1) {
+          return 0; // Loop back to start
+        }
+        return prev + 1;
+      });
+    }, 8000); // Change slide every 8 seconds
+
+    return () => clearInterval(interval);
+  }, [isAutoPlay, totalPages]);
+
+  const toggleAutoPlay = () => {
+    setIsAutoPlay((prev) => !prev);
   };
 
   return (
@@ -88,6 +109,15 @@ const App: React.FC = () => {
           <ChevronRightIcon />
         </button>
       )}
+
+      {/* Auto-play Toggle */}
+      <button
+        onClick={toggleAutoPlay}
+        className="absolute bottom-4 right-4 z-10 px-4 py-2 rounded-full bg-white/70 hover:bg-white/90 transition-colors focus:outline-none focus:ring-2 focus:ring-purple-500 text-sm font-medium text-purple-700"
+        aria-label={isAutoPlay ? "Pause slideshow" : "Play slideshow"}
+      >
+        {isAutoPlay ? "⏸ Pause" : "▶ Play"}
+      </button>
     </div>
   );
 };
