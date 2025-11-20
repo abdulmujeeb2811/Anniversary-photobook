@@ -38,6 +38,7 @@ const imageUrls: string[] = [
 "https://res.cloudinary.com/dbsnburpl/image/upload/v1763652725/7_ondtwl.jpg",
 "https://res.cloudinary.com/dbsnburpl/image/upload/v1763652721/2_ew30zv.jpg",
 "https://res.cloudinary.com/dbsnburpl/image/upload/v1763652721/15_yzmphv.jpg",
+  "https://res.cloudinary.com/dbsnburpl/image/upload/v1763652734/11_eposeq.jpg",
 "https://res.cloudinary.com/dbsnburpl/image/upload/v1763652718/12_h5mcdj.jpg",
 "https://res.cloudinary.com/dbsnburpl/image/upload/v1763652716/13_ht5xsk.jpg",
 "https://res.cloudinary.com/dbsnburpl/image/upload/v1763652720/16_gja0bz.jpg",
@@ -45,7 +46,6 @@ const imageUrls: string[] = [
 "https://res.cloudinary.com/dbsnburpl/image/upload/v1763652715/19_z8vtfa.jpg",
 "https://res.cloudinary.com/dbsnburpl/image/upload/v1763652715/14_mqtwg3.jpg",
 "https://res.cloudinary.com/dbsnburpl/image/upload/v1763652714/25_dxhgsi.jpg",
-"https://res.cloudinary.com/dbsnburpl/image/upload/v1763652734/11_eposeq.jpg",
 "https://res.cloudinary.com/dbsnburpl/image/upload/v1763652714/27_hgkdwh.jpg",
 "https://res.cloudinary.com/dbsnburpl/image/upload/v1763652732/18_jqa93t.jpg"
 ];
