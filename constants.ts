@@ -8,7 +8,7 @@ const messages: string[] = [
   "One year with you feels like I’ve been learning the gentle language of your soul. The soft parts, the fierce parts, the emotional layers, the thoughtful pauses, the laughter after tension… somehow they’ve blended into a rhythm only the two of us understand.",
   "I didn’t know love could be this warm and exciting at the same time. You brought softness into my calm, fire into my quiet, and we somehow found a balance that feels like home.",
   "This year taught me the rhythm of your heart. How your emotions rise like tides, how your thoughts run deep, how your strength hides behind your gentleness. Knowing you this closely is a privilege I don’t take for granted.",
-  "Somewhere over these twelve months, you stopped being just someone I love and became the place my mind goes whenever I need peace. You’re the calm after my storms and the warmth in my cold mornings.",
+  "Somewhere over these twelve months, you stopped being just someone I love and became the place my mind goes whenever I need peace. You’re the calm after my storms and the warmth in my cold mornings..",
   "The little things we shared together — cooking side by side, walking into events hand in hand, late-night snacks, laughing at our goofy jokes — they somehow became the memories that shaped our whole year.",
   "I didn’t just fall for you. I kept discovering you. Your tenacity, your empathy, the quiet beauty in your routines, the brilliance in your mind. Every new layer drew me closer.",
   "Thank you for the way you challenge me with gentleness, love me with emotion, stand your ground with fire, and still melt into me when life gets heavy. This year showed me just how fortunate I am to have you.",
