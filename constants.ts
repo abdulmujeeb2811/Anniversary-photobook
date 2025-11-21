@@ -5,7 +5,7 @@ export interface PhotoBookEntry {
 }
 
 const messages: string[] = [
- "Novio, One year with you has been an adventure. I've been  learning the gentle, yet strong language of your soul. The soft parts of your soul, the strong parts of your mind, the emotional layers of your person, the thoughtful pauses in your talks, the frowns and laughs after tension. Somehow all these have blended into a rhythm only the two of us understand."",
+  "Novio, One year with you has been an adventure. I've been  learning the gentle, yet strong language of your soul. The soft parts of your soul, the strong parts of your mind, the emotional layers of your person, the thoughtful pauses in your talks, the frowns and laughs after tension. Somehow all these have blended into a rhythm only the two of us understand."",
   "I didn’t know love could be this warm and exciting at the same time. You brought softness into my calm, fire into my quiet, and we somehow found a balance that feels like home.",
   "This year taught me the rhythm of your heart. How your emotions rise like tides, how your thoughts run deep, how your strength hides behind your gentleness. Knowing you this closely is a privilege I don’t take for granted.",
   "Somewhere over these twelve months, you stopped being just someone I love and became the place my mind goes whenever I need peace. You’re the calm after my storms and the warmth in my cold mornings..",
